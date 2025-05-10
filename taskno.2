@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Board - Find Your Dream Job</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      background: linear-gradient(to right, #1e90ff, #00bfff);
+      color: white;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .search-bar {
+      margin-top: 30px;
+    }
+    .search-bar input {
+      padding: 10px;
+      width: 200px;
+      margin: 5px;
+    }
+    .featured-jobs {
+      padding: 40px 20px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    .job-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 80%;
+      max-width: 600px;
+      text-align: left;
+    }
+    footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Job Board</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Jobs</a>
+      <a href="#">Employers</a>
+      <a href="#">Candidates</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Find Your Dream Job</h1>
+    <p>Search among thousands of job opportunities</p>
+    <div class="search-bar">
+      <input type="text" placeholder="Keyword" />
+      <input type="text" placeholder="Location" />
+      <button>Search</button>
+    </div>
+  </section>
+
+  <section class="featured-jobs">
+    <h2>Featured Jobs</h2>
+    <div class="job-card">
+      <h3>Frontend Developer</h3>
+      <p><strong>Company:</strong> TechCorp</p>
+      <p><strong>Location:</strong> New York</p>
+      <p>Build amazing user interfaces for modern web apps.</p>
+    </div>
+    <div class="job-card">
+      <h3>Backend Developer</h3>
+      <p><strong>Company:</strong> Innovate Ltd.</p>
+      <p><strong>Location:</strong> San Francisco</p>
+      <p>Design robust backend services and APIs.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Job Board. All rights reserved.</p>
+  </footer>
+</body>
+</html>
